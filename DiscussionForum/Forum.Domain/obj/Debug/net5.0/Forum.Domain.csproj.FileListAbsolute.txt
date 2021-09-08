@@ -1,0 +1,12 @@
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\bin\Debug\net5.0\Forum.Domain.deps.json
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\bin\Debug\net5.0\Forum.Domain.dll
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\bin\Debug\net5.0\ref\Forum.Domain.dll
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\bin\Debug\net5.0\Forum.Domain.pdb
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\obj\Debug\net5.0\Forum.Domain.csproj.AssemblyReference.cache
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\obj\Debug\net5.0\Forum.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\obj\Debug\net5.0\Forum.Domain.AssemblyInfoInputs.cache
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\obj\Debug\net5.0\Forum.Domain.AssemblyInfo.cs
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\obj\Debug\net5.0\Forum.Domain.csproj.CoreCompileInputs.cache
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\obj\Debug\net5.0\Forum.Domain.dll
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\obj\Debug\net5.0\ref\Forum.Domain.dll
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Domain\obj\Debug\net5.0\Forum.Domain.pdb
