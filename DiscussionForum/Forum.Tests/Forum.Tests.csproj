@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.10" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
-    <PackageReference Include="Moq" Version="4.16.1" />
     <PackageReference Include="Shouldly" Version="4.0.3" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
@@ -24,12 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Forum.Application\Forum.Application.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Comments\" />
-    <Folder Include="Users\" />
-    <Folder Include="Posts\" />
+    <ProjectReference Include="..\Forum.Infrastructure\Forum.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

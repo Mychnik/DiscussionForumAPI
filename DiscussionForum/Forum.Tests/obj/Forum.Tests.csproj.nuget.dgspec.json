@@ -241,6 +241,9 @@
             "projectReferences": {
               "E:\\PORTFOLIO\\ForumAPI\\DiscussionForum\\Forum.Application\\Forum.Application.csproj": {
                 "projectPath": "E:\\PORTFOLIO\\ForumAPI\\DiscussionForum\\Forum.Application\\Forum.Application.csproj"
+              },
+              "E:\\PORTFOLIO\\ForumAPI\\DiscussionForum\\Forum.Infrastructure\\Forum.Persistence.csproj": {
+                "projectPath": "E:\\PORTFOLIO\\ForumAPI\\DiscussionForum\\Forum.Infrastructure\\Forum.Persistence.csproj"
               }
             }
           }
@@ -257,15 +260,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[5.0.9, )"
+              "version": "[5.0.10, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.16.1, )"
             },
             "Shouldly": {
               "target": "Package",

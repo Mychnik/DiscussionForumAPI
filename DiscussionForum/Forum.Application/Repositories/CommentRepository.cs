@@ -20,6 +20,13 @@ namespace Forum.Application.Repositories
         {
             _mapper = mapper;
         }
+        public async Task<Comment> GetCommentById(int id)
+        {
+            var result = await _dbcontext.Comments.FirstOrDefaultAsync(x => x.CommentId == id);
+            return result;
+
+
+        }
         public async Task<List<ICommentInPostModel>> GetCommentsFromPostById(int id)
         {
             var result = _dbcontext.Comments.Where(p => p.PostId == id).ToList();
@@ -36,7 +43,9 @@ namespace Forum.Application.Repositories
         public async Task<int> EditComment(IEditCommentModel edit, string currentUserId)
         {
             if (edit.AuthorId != currentUserId) throw new UserIsNotTheOwnerException("Nie jesteś właścicielem komentarza");
-            var result = _mapper.Map<Comment>(edit);
+            //var result = _mapper.Map<Comment>(edit);
+            var result = await _dbcontext.Comments.FindAsync(edit.commentId);
+            result.Content = edit.Content;
             result.Date = DateTime.Now;
             await EditAsync(result);
             return result.CommentId;

@@ -1,9 +1,4 @@
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.csproj.AssemblyReference.cache
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.GeneratedMSBuildEditorConfig.editorconfig
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.AssemblyInfoInputs.cache
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.AssemblyInfo.cs
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.csproj.CoreCompileInputs.cache
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\testhost.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\EmptyFiles\archive\empty.7z
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\EmptyFiles\archive\empty.bz2
@@ -81,6 +76,7 @@ E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.Vis
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
@@ -269,12 +265,14 @@ E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Forum.Applica
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Forum.Domain.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Forum.Persistence.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Forum.Application.pdb
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Forum.Domain.pdb
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Forum.Persistence.pdb
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Forum.Domain.pdb
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.csproj.AssemblyReference.cache
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.GeneratedMSBuildEditorConfig.editorconfig
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.AssemblyInfoInputs.cache
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.AssemblyInfo.cs
+E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.csproj.CoreCompileInputs.cache
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.csproj.CopyComplete
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\ref\Forum.Tests.dll
 E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\obj\Debug\net5.0\Forum.Tests.genruntimeconfig.cache
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Castle.Core.dll
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Moq.dll
-E:\PORTFOLIO\ForumAPI\DiscussionForum\Forum.Tests\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
