@@ -51,7 +51,7 @@ namespace Forum.Application.Repositories
             var result = await _uManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
-                user = await _uManager.FindByNameAsync(model.UserName);
+                user = await _uManager.FindByNameAsync(model.UserName); 
                 await _uManager.AddToRoleAsync(user, IdentityConstantHelper.UsersRoleConstans);
             }
             return result;

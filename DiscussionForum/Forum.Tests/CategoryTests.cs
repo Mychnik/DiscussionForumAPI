@@ -19,6 +19,7 @@ namespace Forum.Tests
    public class CategoryTests
     {
         private ArrangeTest arrange;
+        private int typeOfDB = 1;
 
         public CategoryTests()
         {
@@ -28,10 +29,10 @@ namespace Forum.Tests
         public async Task  ShouldListAllCategories()
         {
             // Arrange
-            //var context = getFreshDB("listCategories");
-            //var mapper = gethMapper();
+            //dbType 1=Category, it helps create corrert collection in DB
+            var unitOfWork = arrange.ArrangeUnitOfWork("listCategories", typeOfDB);
             //Arc
-            var unitOfWork = arrange.ArrangeUnitOfWork("listCategories");
+
 
             var listOfCategories = await unitOfWork.category.GetAllAsync();
 
@@ -47,8 +48,9 @@ namespace Forum.Tests
             //var mapper = getMapper();
 
             //Arc
-            var unitOfWork = arrange.ArrangeUnitOfWork("addCategory");
+            var unitOfWork = arrange.ArrangeUnitOfWork("addCategory", typeOfDB);
             var listOfCategories = await unitOfWork.category.GetAllAsync();
+            var countCategories = listOfCategories.Count();
             await unitOfWork.category.AddCategory(new NewCategoryModel {Name="NewCategory"});
             await unitOfWork.ComlpeteAsync();
             var newListOfCategories = await unitOfWork.category.GetAllAsync();
@@ -56,7 +58,7 @@ namespace Forum.Tests
 
 
             //Assert
-            newListOfCategories.Count.ShouldBe(listOfCategories.Count + 1);
+            newListOfCategories.Count.ShouldBe(countCategories + 1);
             newListOfCategories.ShouldNotBeNull();
 
         }
@@ -66,10 +68,11 @@ namespace Forum.Tests
         public async Task ShouldDeleteCategory()
         {
             //Arrange
-            var unitOfWork = arrange.ArrangeUnitOfWork("deleteCategory");
+            var unitOfWork = arrange.ArrangeUnitOfWork("deleteCategory", typeOfDB);
 
             //Arc
             var listOfCategories = await unitOfWork.category.GetAllAsync();
+            var countCategories = listOfCategories.Count();
             var categoryToDelete = await unitOfWork.category.GetByIdAsync(2);
             await unitOfWork.category.DeleteAsync(categoryToDelete);
             await unitOfWork.ComlpeteAsync();
@@ -77,7 +80,7 @@ namespace Forum.Tests
 
 
             //Assert
-            reducedListOfCategories.Count.ShouldBe(listOfCategories.Count - 1);
+            reducedListOfCategories.Count.ShouldBe(countCategories - 1);
             reducedListOfCategories.ShouldNotBeNull();
 
         }
@@ -88,7 +91,7 @@ namespace Forum.Tests
         {
             //Arrange
             //var arrange = new ArrangeTest();
-            var unitOfWork = arrange.ArrangeUnitOfWork("getPosts");
+            var unitOfWork = arrange.ArrangeUnitOfWork("getPosts", typeOfDB);
 
             //Arc
             var categoriesWithPosts = await unitOfWork.category.GetCategoriesWithPosts(1);
@@ -98,7 +101,7 @@ namespace Forum.Tests
             categoriesWithPosts.ShouldNotBeNull();
             categoriesWithPosts.Posts.ShouldNotBeNull();
 
-
+            //unitOfWork.Dispose();
         }
         
         
